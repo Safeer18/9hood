@@ -8,7 +8,7 @@ const jwt = require("jsonwebtoken");
 const connectDB = require("./config/db");
 
 // Models
-const User = require("./models/user");
+const user = require("./models/user");
 const Product = require("./models/Product");
 const Cart = require("./models/Cart");
 const Order = require("./models/Order");
